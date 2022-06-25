@@ -31,7 +31,7 @@ class AppTextStyles {
     fontSize: 15.0,
     fontWeight: FontWeight.w500,
     fontFamily: 'Roboto',
-    color: Color(0xFF7061fa),
+    color: Color(0xFF0165ff),
   );
 
   static const mediumWhiteTextStyle = TextStyle(

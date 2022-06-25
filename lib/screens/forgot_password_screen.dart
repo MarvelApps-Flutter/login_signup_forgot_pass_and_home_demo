@@ -22,11 +22,19 @@ class _ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
   Widget build(BuildContext context) {
     appC = AppConfig(context);
     return Scaffold(
+      appBar: AppBar(
+        automaticallyImplyLeading: true,
+        backgroundColor: Colors.white,
+         leading: IconButton(onPressed: (){
+           Navigator.pop(context);
+         }, icon: Icon(Icons.arrow_back_ios,color: Colors.black,)),
+        elevation: 0,
+      ),
       backgroundColor: Colors.white,
       body: SafeArea(
         child: SingleChildScrollView(
           child: Form(
-            key: formGlobalKey,
+            key : formGlobalKey,
             child: Padding(
               padding: const EdgeInsets.all(12.0),
               child: Column(
