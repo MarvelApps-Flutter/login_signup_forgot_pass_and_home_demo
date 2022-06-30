@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_login_app_module/screens/login_screen.dart';
+import 'package:flutter_login_app_module/screens/splash_screen.dart';
 import 'screens/forgot_password_screen.dart';
 import 'screens/signup_screen.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const LoginScreen(),
+      home: const SplashScreen(),
     );
   }
 }
